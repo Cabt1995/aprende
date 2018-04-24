@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/portada.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+#video ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+#video ul li{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul video{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+
+.boton{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: darkorange;
+}
+
+.boton a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 30px;
+    -webkit-transition: all .4s ease;
+}
+
+.boton a:hover{
+    background-color: #2a9ad2;
+    border-radius: 30px;
+}
