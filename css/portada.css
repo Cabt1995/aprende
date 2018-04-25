@@ -53,7 +53,7 @@ ul video{
     height: 100%;
     align-items: center;
     font-size: 30px;
-    -webkit-transition: all .4s ease;
+    -webkit-transition: all 1s ease;
 }
 
 .boton a:hover{
