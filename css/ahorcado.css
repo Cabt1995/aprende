@@ -51,6 +51,11 @@ header{
     -webkit-transition: all .6s ease;
 }
 
+.botones div a{
+    color: white;
+    text-decoration: none;
+}
+
 .botones div:hover{
     border-radius: 30px;
     background-color: #2a9ad2;
