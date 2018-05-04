@@ -32,9 +32,11 @@ section.cursos{
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
-    border-top: 3px solid white;
+    min-height: 100vh;  
+    margin-top: 10px;
+    
 }
+
 
 .conten_img{
     width: 80%;
@@ -50,6 +52,12 @@ section.cursos{
     width: 100%;
     opacity: .5;
     -webkit-transition: all .5s ease;
+}
+
+td div.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .conten-1{
@@ -270,12 +278,14 @@ td.tres .conten-4{
 }
 
 @media(max-width:1300px){
-    table{
+    section{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     td{
+        width: 100%;
         display: flex;
         min-width: 350px;
     }
@@ -283,6 +293,7 @@ td.tres .conten-4{
     .text a{
         margin-top: -15px;
     }
+    
     
 }
 
